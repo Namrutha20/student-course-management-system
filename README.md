@@ -338,6 +338,7 @@ Potential enhancements for the project include:
 ## Screenshots
 
 * Swagger UI
+  ![Swagger UI](StudentCMS_Screenshots/Swagger_UI.png)
 * Student APIs
 * Course APIs
 * Validation Error Responses
