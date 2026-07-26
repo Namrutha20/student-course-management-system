@@ -1,0 +1,41 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+.springBeans
+.sts4-cache/
+
+# VS Code
+.vscode/
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# Build files
+*.class
+
+# Temporary files
+*.tmp
+
+# Application properties (optional)
+# src/main/resources/application.properties
+
+# Maven Wrapper
+.mvn/timing.properties
+
+# Generated files
+out/
