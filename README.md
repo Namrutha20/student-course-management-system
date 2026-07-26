@@ -338,11 +338,21 @@ Potential enhancements for the project include:
 ## Screenshots
 
 * Swagger UI
-  ![Swagger UI](StudentCMS_Screenshots/Swagger_UI.png)
+  
+  <img src="StudentsCMS_Screenshots/Swagger_UI.png" height="500" width="700">
+  
 * Student APIs
+
+  <img src="StudentsCMS_Screenshots/Student_APIs.png" height="500" width="700">
 * Course APIs
+
+  <img src="StudentsCMS_Screenshots/Course_APIs.png" height="500" width="700">
 * Validation Error Responses
+
+  <img src="StudentsCMS_Screenshots/ValidationError_Response.png" height="500" width="700">
 * Exception Handling Responses
+
+  <img src="StudentsCMS_Screenshots/ExceptionHandling_Response.png" height="500" width="700">
 
 
 ## Author
