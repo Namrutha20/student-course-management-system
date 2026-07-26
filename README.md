@@ -6,7 +6,7 @@ The Student Course Management System is a Spring Boot REST API application desig
 
 The application allows users to perform CRUD operations on students and courses while maintaining a Many-to-Many relationship between them.
 
----
+
 
 ## Features
 
@@ -21,7 +21,7 @@ The application allows users to perform CRUD operations on students and courses 
 * Proper HTTP Status Code Handling
 * Clean Layered Architecture
 
----
+
 
 ## Technologies Used
 
@@ -35,7 +35,7 @@ The application allows users to perform CRUD operations on students and courses 
 * Lombok
 * Jakarta Validation API
 
----
+
 
 ## Project Architecture
 
@@ -60,7 +60,7 @@ MySQL Database
 
 The project follows a clean layered architecture to improve maintainability, scalability, and code readability.
 
----
+
 
 ## Package Structure
 
@@ -108,7 +108,7 @@ com.srinidhi.student_course_management
 └── StudentCourseManagementApplication.java
 ```
 
----
+
 
 ## Database Design
 
@@ -124,7 +124,7 @@ com.srinidhi.student_course_management
 | phoneNumber | String    |
 | dateOfBirth | LocalDate |
 
----
+
 
 ### Course Entity
 
@@ -135,7 +135,7 @@ com.srinidhi.student_course_management
 | trainer    | String |
 | duration   | String |
 
----
+
 
 ### Relationship
 
@@ -147,7 +147,7 @@ Many-to-Many Relationship
 
 A student can enroll in multiple courses, and a course can have multiple students.
 
----
+
 
 ## API Endpoints
 
@@ -162,7 +162,7 @@ A student can enroll in multiple courses, and a course can have multiple student
 | DELETE | /api/students/{id}                           | Delete Student           |
 | POST   | /api/students/{studentId}/courses/{courseId} | Enroll Student in Course |
 
----
+
 
 ### Course APIs
 
@@ -174,7 +174,7 @@ A student can enroll in multiple courses, and a course can have multiple student
 | PUT    | /api/courses/{id} | Update Course    |
 | DELETE | /api/courses/{id} | Delete Course    |
 
----
+
 
 ## Validation
 
@@ -199,7 +199,7 @@ Example validation checks include:
 * Invalid phone number format
 * Future date of birth values
 
----
+
 
 ## Exception Handling
 
@@ -229,7 +229,7 @@ Example Error Response:
 }
 ```
 
----
+
 
 ## DTO and Mapper Pattern
 
@@ -257,7 +257,7 @@ Benefits:
 * Better scalability
 * Cleaner service layer implementation
 
----
+
 
 ## Swagger/OpenAPI Documentation
 
@@ -276,7 +276,7 @@ Swagger allows you to:
 * View request and response models
 * Test validation and exception handling
 
----
+
 
 ## How to Run the Project
 
@@ -320,7 +320,7 @@ mvn spring-boot:run
 
 or run the main application class from your IDE.
 
----
+
 
 ## Future Improvements
 
@@ -333,7 +333,7 @@ Potential enhancements for the project include:
 * Unit Testing using JUnit and Mockito
 * Spring Boot and React Integration
 
----
+
 
 ## Screenshots
 
